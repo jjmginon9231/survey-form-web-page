@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Coding Academy Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__h1 center">XYZ Coding Academy Survey Form</h1>
+            <p class="header__p center">
+                Thank you for taking the time to help us enhance our educational services.
+            </p>
+        </header>
+        <main class="main">
+            <form class="main__form form" action="https://httpbin.org/post" method="post">
+                <p class="form__p">
+                    <label class="form__label" for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form__input" placeholder="Your Name" required>
+                </p>
+                <p class="form__p">
+                    <label class="form__label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form__input" placeholder="user@mail.com"
+                        required>
+                </p>
+                <p class="form__p">
+                    <label class="form__label" for="number">Age</label>
+                    <input type="number" name="age" id="number" min="10" max="99" class="form__input" placeholder="18">
+                </p>
+                <p class="form__p">
+                    <label class="form__label" for="dropdown">What is your employment status?</label>
+                    <select id="dropdown" name="role" class="form__input" required>
+                        <option disabled selected value="">
+                            Select Employment Status
+                        </option>
+                        <option value="student">Student</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="partTime">Part Time Job</option>
+                        <option value="fullTime">Full Time Job</option>
+                        <option value="preferNot">Prefer not to say</option>
+                    </select>
+                </p>
+
+                <p class="form__p">
+                    <label class="form__label" for="favorite-feature">What is your most favorite feature in XYZ Coding
+                        Academy?</label>
+                    <select id="favorite-feature" name="favoriteFeature" class="form__input" required>
+                        <option disabled selected value>
+                            Select One
+                        </option>
+                        <option value="challenges">Coding Challenges</option>
+                        <option value="community">Dev Community</option>
+                        <option value="openSource">Open Source</option>
+                        <option value="projects">Projects</option>
+                    </select>
+                </p>
+
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">
+                        Which web developement project(s) have you finished?
+                    </legend>
+
+                    <p class="form__p-rc">
+                        <input name="prefer" value="login-web-page" type="checkbox" class="form__input-checkbox">
+                        Login and Sign Up Web Page
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="portfolio-website" type="checkbox" class="form__input-checkbox">
+                        Portfolio Website
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="product-landing-page" type="checkbox" class="form__input-checkbox">
+                        Product Landing Page
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="responsive-blog-website" type="checkbox"
+                            class="form__input-checkbox">
+                        Responsive Blog Website
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="restaurant-website" type="checkbox" class="form__input-checkbox">
+                        Restaurant Website
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="survey-form" type="checkbox" class="form__input-checkbox">
+                        Survey Form
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="technical-documentation-web-page" type="checkbox"
+                            class="form__input-checkbox">
+                        Technical Documentation Web Page
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="todo-app" type="checkbox" class="form__input-checkbox">
+                        ToDo App
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="prefer" value="quiz-app" type="checkbox" class="form__input-checkbox">
+                        Quiz App
+                    </p>
+                </fieldset>
+
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">
+                        Would you recommend XYZ Coding Academy to a friend?
+                    </legend>
+                    <p class="form__p-rc">
+                        <input name="user-recommend" value="most-likely" type="radio" class="form__input-radio" checked>
+                        Most Likely
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="user-recommend" value="maybe" type="radio" class="form__input-radio">
+                        Maybe
+                    </p>
+                    <p class="form__p-rc">
+                        <input name="user-recommend" value="less-likely" type="radio" class="form__input-radio">
+                        Less Likely
+                    </p>
+                </fieldset>
+
+                <p class="form__p">
+                    <label class="form__label" for="comments">Comments and Suggestions:</label>
+                    <textarea class="form__textarea" name="comments" id="comments" cols="30" rows="10"
+                        placeholder="Type your comments here"></textarea>
+                </p>
+
+                <p class="form__p-button">
+                    <button class="form__button-reset" type="reset">
+                        Reset
+                    </button>
+                    <button class="form__button-submit" type="submit">
+                        Submit
+                    </button>
+                </p>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="center">Copyright &copy; XYZ Coding Academy</p>
+        </footer>
+    </div>
+</body>
+
+</html>
