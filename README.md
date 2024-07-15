@@ -1,5 +1,7 @@
 # Survey Form Web Page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/154e7085-29d9-4296-8bd4-9c2220b5bb53/deploy-status)](https://app.netlify.com/sites/survey-form-web-page/deploys)
+
 This repository contains my solution to the Responsive Web Design course's Survey Form certification project on freeCodeCamp. The project aims to construct a responsive survey form that meets the user stories provided by freeCodeCamp. The project follows the instructions provided by freeCodeCamp, but I've also incorporated best practices I learned from Dave Gray's tutorials on [Semantic HTML Tags](https://youtu.be/kX3TfdUqpuU?si=AftWlHmqFp_PeBIp), [HTML Forms and Inputs](https://youtu.be/frAGrGN00OA?si=dClFswtT5uNO452j), [CSS Selectors](https://youtu.be/QgxkYbGr2II?si=487IVljTaUFncgXD), [CSS Pseudo-Classes vs Pseudo-Elements](https://youtu.be/GNmz5dYjdcQ?si=dY5y7wUr24q6gHXE), [CSS Custom Variables](https://youtu.be/K_M7D0PfOFM?si=6_46I0-wNN5p3THb), [CSS Functions](https://youtu.be/MNPdifWAAa4?si=ihWXWDwCzx5I9niY), and [How to Organize CSS using BEM methodology](https://youtu.be/MNPdifWAAa4?si=ihWXWDwCzx5I9niY).
 
 ## Project Overview
